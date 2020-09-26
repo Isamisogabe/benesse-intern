@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Remote Debate </title>
+  <!-- CSS only -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<link rel="stylesheet" href="../css/index.css">
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</head>
+<header>
+  <nav class="navbar bg-green">
+    <a class="navbar-brand" href="#">DebateLogo</a>
+    <div></div>
+  </nav>
+</header>
+<body>
+  <div class="" id="top_wrap">
+    <div id="top_page">
+      <!-- 検索エリア -->
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="気になる議題を入力->" aria-label="Recipient's username" aria-describedby="button-addon2">
+        <div class="input-group-append">
+          <button class="btn btn-outline-secondary" type="button" id="button-addon2">検索</button>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  <div class="container-fluid main">
+    <div class="left" id="filter_list">
+      <div class="sub-ul">
+        <div><b>議題</b></div>
+        <ul>
+          <li>単元</li>
+          <ul>
+            <li>国語</li>
+            <li>数学</li>
+            <li>理科</li>
+            <li>社会</li>
+            <li>英語</li>
+          </ul>
+        </ul>
+
+        <ul>
+          <li>レベル</li>
+          <ul>
+            <li>かなり優しい</li>
+            <li>優しい</li>
+            <li>普通</li>
+            <li>難しい</li>
+            <li>かなり難しい</li>
+          </ul>
+        </ul>
+      </div>
+      <div class="sub-ul">
+        <div><b>クラス</b></div>
+        <ul>
+          <li>高校?</li>
+          <ul>
+            <li>公立</li>
+            <li>私立</li>
+            <li>工業高校</li>
+            <li>高専</li>
+            <li>料理</li>
+            <li>農業</li>
+            <li>情報</li>
+          </ul>
+          
+          <li>学科</li>
+          <ul>
+            <li>普通科</li>
+            <li>情報科</li>
+            <li>特進科</li>
+            <li>他に何あるか調べる必要がある。。</li>
+          </ul>
+
+
+          <li>学年</li>
+          <ul>
+            <li>高校１年</li>
+            <li>高校２年</li>
+            <li>高校３年</li>
+            <li>中学１年</li>
+            <li>中学２年</li>
+            <li>中学３年</li>
+          </ul>
+
+          <li>学科</li>
+
+          <li>都道府県</li>
+          <ul>
+            <li>北海道</li>
+            <li>
+              東北
+              <ul>
+                <li>青森</li>
+                <li>岩手</li>
+                <li>宮城</li>
+                <li>秋田</li>
+                <li>山形</li>
+                <li>福島</li>
+              </ul>
+              
+            </li>
+            <li>関東
+              <ul>
+                <li>東京</li>
+                <li>茨城</li>
+                <li>栃木</li>
+                <li>群馬</li>
+                <li>埼玉</li>
+                <li>千葉</li>
+                <li>神奈川</li>
+              </ul>
+            </li>
+            <li>中部
+              <ul>
+                <li>新潟</li>
+                <li>富山</li>
+                <li>石川</li>
+                <li>福井</li>
+                <li>山梨</li>
+                <li>長野</li>
+                <li>岐阜</li>
+                <li>静岡</li>
+                <li>愛知</li>
+              </ul>
+            </li>
+            <li>近畿
+              <ul>
+                <li>京都</li>
+                <li>大阪</li>
+                <li>三重</li>
+                <li>滋賀</li>
+                <li>兵庫</li>
+                <li>奈良</li>
+                <li>和歌山</li>
+              </ul>
+            </li>
+            <li>中国
+              <ul>
+                <li>鳥取</li>
+                <li>島根</li>
+                <li>岡山</li>
+                <li>広島</li>
+                <li>山口</li>
+              </ul>
+            </li>
+            <li>九州
+              <ul>
+                <li>福岡</li>
+                <li>佐賀</li>
+                <li>長崎</li>
+                <li>大分</li>
+                <li>熊本</li>
+                <li>宮崎</li>
+                <li>鹿児島</li>
+                <li>沖縄</li>
+              </ul>
+            </li>
+          </ul>
+
+          <li></li>
+        </ul>
+      </div>
+    </div>
+    <div class="center" id="debate_list">
+      <ul id="debate_cards">
+        <li>
+          <div class="debate-card">
+            <h4 class="debate-title">関係代名詞</h4>
+            <span class="debate-from-school">
+              <span class="school-tag"></span>丸々中学
+            </span>
+            <span class="debate-year">3</span>
+            <!-- クラス名はあまり重要じゃないかも
+              <span class="debate-class">2</span>
+            -->
+            
+            <span class="debate-date">開催日時：2020/09/26 13:00-14:00</span>
+          </div>
+        </li>
+        <li>
+          <div class="debate-card">
+            <h4 class="debate-title">関係代名詞</h4>
+            <span class="debate-from-school">
+              <span class="school-tag"></span>丸々中学
+            </span>
+            <span class="debate-year">3</span>
+            <!-- クラス名はあまり重要じゃないかも
+              <span class="debate-class">2</span>
+            -->
+            
+            <span class="debate-date">開催日時：2020/09/26 13:00-14:00</span>
+          </div>
+        </li>
+        <li>
+          <div class="debate-card">
+            <h4 class="debate-title">波動と位相</h4>
+            <span class="debate-from-school">
+              <span class="school-tag"></span>岡高校
+            </span>
+            <span class="debate-date">開催日時：2020/09/26 13:00-14:00</span>
+            <span class="debate-num-class">クラス数：2/3</span>
+          </div>
+        </li>
+        <li>
+          <div class="debate-card">
+            <h4 class="debate-title">直流と交流</h4>
+            <span class="debate-from-school">
+              <span class="school-tag"></span>ヘラクロス工業高校
+            </span>
+            <span class="debate-date">開催日時：2020/09/26 13:00-14:00</span>
+          </div>
+        </li>
+        <li>
+          <div class="debate-card">
+            <h4 class="debate-title">自分にとって幸福とは？</h4>
+            <span class="debate-from-school">
+              <span class="school-tag"></span>丸々中学
+            </span>
+            <span class="debate-year">3</span>
+            <!-- クラス名はあまり重要じゃないかも
+              <span class="debate-class">2</span>
+            -->
+            
+            <span class="debate-date">開催日時：2020/09/26 13:00-14:00</span>
+          </div>
+        </li>
+        <li>
+          <div class="debate-card">
+            <h4 class="debate-title">季節風の各地方における天候の違い</h4>
+            <span class="debate-from-school">
+              <span class="school-tag"></span>丸々中学
+            </span>
+            <span class="debate-year">3</span>
+            <!-- クラス名はあまり重要じゃないかも
+              <span class="debate-class">2</span>
+            -->
+            
+            <span class="debate-date">開催日時：2020/09/26 13:00-14:00</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="right" id="detail_page">
+      <div class="detail-title">
+        <h1>波動と位相</h1>
+      </div>
+      
+      <span class="detail-from-school">
+        <span class="school-tag"></span>市岡高校
+      </span>
+      <p>当クラスでは波動と位相について学んだ。今後ディベートするにあたり、波動と位相に関連した電力の問題についてお互いの学習を確認する。</p>
+
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#matching_application_modal">
+        マッチングを申請
+      </button>
+    </div>
+  </div>
+</body>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="matching_application_modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-hp">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="matching_application_modal_label">マッチング申請フォーム</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+      </div>
+      <div class="modal-footer">
+        <p></p>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">閉じる</button>
+        <button type="button" class="btn btn-primary">申請する</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="bg-green">
+    <h6>All rights reserved.</h6>
+
+  </div>
+</footer>
+
+</html>
